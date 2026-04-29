@@ -1,0 +1,18 @@
+<svg width="900" height="560" viewBox="0 0 900 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="560" rx="24" fill="#FAFBFF"/>
+  <rect x="52" y="44" width="95" height="18" rx="9" fill="#14172A" opacity="0.8"/>
+  <rect x="618" y="47" width="55" height="12" rx="6" fill="#BAC1D9"/>
+  <rect x="694" y="47" width="55" height="12" rx="6" fill="#BAC1D9"/>
+  <rect x="770" y="47" width="55" height="12" rx="6" fill="#BAC1D9"/>
+  <text x="60" y="192" fill="#111428" font-family="Arial, sans-serif" font-size="44" font-weight="800">We build</text>
+  <text x="60" y="244" fill="#111428" font-family="Arial, sans-serif" font-size="44" font-weight="800">strong brands</text>
+  <rect x="62" y="275" width="315" height="14" rx="7" fill="#7B8195" opacity="0.38"/>
+  <rect x="62" y="304" width="250" height="14" rx="7" fill="#7B8195" opacity="0.25"/>
+  <rect x="62" y="354" width="134" height="46" rx="14" fill="#18B76C"/>
+  <rect x="226" y="354" width="134" height="46" rx="14" fill="#EEF1FF"/>
+  <rect x="488" y="122" width="300" height="330" rx="30" fill="#E6D0BD"/>
+  <path d="M488 348L642 176L788 452H488V348Z" fill="#9E6D4D" opacity="0.76"/>
+  <path d="M590 452L704 236L788 452H590Z" fill="#533425" opacity="0.52"/>
+  <circle cx="686" cy="172" r="44" fill="#FFFFFF" opacity="0.36"/>
+  <rect x="532" y="411" width="180" height="22" rx="11" fill="#FFFFFF" opacity="0.65"/>
+</svg>

@@ -1,0 +1,19 @@
+<svg width="900" height="560" viewBox="0 0 900 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="560" rx="24" fill="#F6F7FC"/>
+  <rect x="58" y="50" width="82" height="16" rx="8" fill="#101326" opacity="0.8"/>
+  <rect x="610" y="52" width="58" height="10" rx="5" fill="#AAB1C7"/>
+  <rect x="690" y="52" width="58" height="10" rx="5" fill="#AAB1C7"/>
+  <rect x="770" y="52" width="58" height="10" rx="5" fill="#AAB1C7"/>
+  <text x="68" y="186" fill="#111428" font-family="Arial, sans-serif" font-size="36" font-weight="800">Hello, I'm</text>
+  <text x="68" y="236" fill="#111428" font-family="Arial, sans-serif" font-size="50" font-weight="900">John Smith</text>
+  <rect x="72" y="265" width="318" height="14" rx="7" fill="#7B8195" opacity="0.32"/>
+  <rect x="72" y="294" width="250" height="14" rx="7" fill="#7B8195" opacity="0.22"/>
+  <rect x="72" y="346" width="118" height="44" rx="14" fill="#6D35FF"/>
+  <rect x="210" y="346" width="118" height="44" rx="14" fill="#FFFFFF" stroke="#DFDFF0"/>
+  <rect x="520" y="128" width="248" height="322" rx="32" fill="#FFFFFF"/>
+  <circle cx="644" cy="238" r="76" fill="#D9C3AE"/>
+  <path d="M560 450C574 374 606 332 644 332C682 332 724 374 738 450H560Z" fill="#1E243A"/>
+  <path d="M605 223C618 188 681 190 696 226C682 246 625 247 605 223Z" fill="#443A33"/>
+  <circle cx="622" cy="246" r="6" fill="#2B2D36"/><circle cx="668" cy="246" r="6" fill="#2B2D36"/>
+  <rect x="570" y="474" width="150" height="18" rx="9" fill="#DDE1F1"/>
+</svg>

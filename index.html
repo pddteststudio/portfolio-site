@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Software Developer & QA Engineer portfolio website" />
+  <title>Siarhei M. - Software Developer & QA Engineer</title>
+
+  <link rel="icon" type="image/png" href="assets/icons/favicon.png" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a class="logo" href="#home" aria-label="Go to home">Siarhei M.</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Open navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="main-nav" id="mainNav" aria-label="Main navigation">
+        <a class="nav-link active" href="#home">Home</a>
+        <a class="nav-link" href="#services">Services</a>
+        <a class="nav-link" href="#projects">Projects</a>
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-bg">
+        <span class="orb orb-one"></span>
+        <span class="orb orb-two"></span>
+        <span class="orb orb-three"></span>
+        <span class="grid-line grid-line-one"></span>
+        <span class="grid-line grid-line-two"></span>
+      </div>
+
+      <div class="container hero-inner">
+        <div class="hero-content" data-reveal="left">
+          <p class="eyebrow">Hello, I'm</p>
+          <h1>Software Developer<br />&amp; QA Engineer</h1>
+          <p class="hero-lead">I build clean websites, web applications and reliable digital solutions for businesses.</p>
+          <p class="hero-text">IT professional with 5+ years of experience in software development, testing and system support.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#contact">Contact Me <span>↗</span></a>
+            <a class="btn btn-ghost" href="#projects">View Projects <span>↓</span></a>
+          </div>
+        </div>
+
+        <div class="code-card" data-reveal="right" aria-label="Developer profile code preview">
+          <div class="window-dots">
+            <span class="dot red"></span>
+            <span class="dot yellow"></span>
+            <span class="dot green"></span>
+          </div>
+          <pre><code><span class="code-purple">const</span> developer = {
+  name: <span class="code-green">'Siarhei M.'</span>,
+  role: [<span class="code-green">'Developer'</span>, <span class="code-green">'QA Engineer'</span>],
+  experience: <span class="code-green">'5+ years'</span>,
+  skills: [
+    <span class="code-green">'JavaScript'</span>,
+    <span class="code-green">'TypeScript'</span>,
+    <span class="code-green">'Python'</span>,
+    <span class="code-green">'HTML'</span>,
+    <span class="code-green">'CSS'</span>,
+    <span class="code-green">'QA Testing'</span>
+  ],
+  passion: <span class="code-green">'Building digital solutions'</span>
+};</code></pre>
+        </div>
+      </div>
+
+      <a class="scroll-indicator" href="#services" aria-label="Scroll to services">
+        <span></span>
+      </a>
+      <div class="hero-wave" aria-hidden="true"></div>
+    </section>
+
+    <section class="section services-section" id="services">
+      <div class="container">
+        <div class="section-heading" data-reveal="up">
+          <span class="section-kicker">Services</span>
+          <h2>What I Do</h2>
+          <span class="heading-line"></span>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-item" data-reveal="up" data-delay="0">
+            <div class="service-icon icon-purple" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M8 9l-4 3 4 3M16 9l4 3-4 3M14 5l-4 14" /></svg>
+            </div>
+            <h3>Website Development</h3>
+            <p>Modern responsive websites for businesses, personal brands and services.</p>
+          </article>
+
+          <article class="service-item" data-reveal="up" data-delay="120">
+            <div class="service-icon icon-blue" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 3l8 4-8 4-8-4 8-4zM4 12l8 4 8-4M4 17l8 4 8-4" /></svg>
+            </div>
+            <h3>Web Application Development</h3>
+            <p>Custom web solutions, dashboards, internal tools and client-facing platforms.</p>
+          </article>
+
+          <article class="service-item" data-reveal="up" data-delay="240">
+            <div class="service-icon icon-green" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M14.7 6.3a4 4 0 0 0-5 5L4 17v3h3l5.7-5.7a4 4 0 0 0 5-5l-2.6 2.6-2.8-2.8 2.4-2.8z" /></svg>
+            </div>
+            <h3>Maintenance &amp; Support</h3>
+            <p>Bug fixing, improvements, updates and long-term technical support.</p>
+          </article>
+
+          <article class="service-item" data-reveal="up" data-delay="360">
+            <div class="service-icon icon-pink" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M21 11.5a8.4 8.4 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.4 8.4 0 0 1-3.8-.9L3 21l1.9-5.7a8.4 8.4 0 0 1-.9-3.8 8.5 8.5 0 1 1 17 0z" /></svg>
+            </div>
+            <h3>Technical Consulting</h3>
+            <p>Helping clients choose the right technologies and structure their projects.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-heading" data-reveal="up">
+          <span class="section-kicker">Projects</span>
+          <h2>Recent Work</h2>
+          <span class="heading-line"></span>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card" data-reveal="up" data-delay="0">
+            <div class="project-image-wrap">
+              <img class="project-img marketplace-preview" src="assets/projects/cases/MeloBank.png" alt="Digital marketplace platform interface" />
+            </div>
+        
+            <div class="project-info">
+              <h3>Digital Marketplace Platform</h3>
+              <p>A dark-themed marketplace interface for browsing, filtering and managing digital assets.</p>
+        
+              <button
+                class="details-btn"
+                type="button"
+                data-project="Digital Marketplace Platform"
+                data-image="assets/projects/cases/MeloBank.png"
+                data-description="A marketplace-style web platform designed for listing, browsing and managing digital assets. The interface includes category navigation, filters, search fields, product cards and a dark visual style focused on clarity and usability."
+                data-stack="React, JavaScript, Component-Based UI, State Management, Responsive Layout"
+              >
+                Details <span>↗</span>
+              </button>
+            </div>
+          </article>
+        
+          <article class="project-card" data-reveal="up" data-delay="120">
+            <div class="project-image-wrap">
+              <img class="project-img locus-preview" src="assets/projects/cases/Locus.png" alt="Interior design website landing page" />
+            </div>
+        
+            <div class="project-info">
+              <h3>Interior Design Website</h3>
+              <p>A clean landing page for an interior design brand with a modern and minimal visual style.</p>
+        
+              <button
+                class="details-btn"
+                type="button"
+                data-project="Interior Design Website"
+                data-image="assets/projects/cases/Locus.png"
+                data-description="A responsive landing page for an interior design brand. The layout focuses on visual presentation, smooth transitions and elegant content structure."
+                data-stack="HTML5, CSS3, JavaScript, GSAP Animations, Figma Design, Responsive Layout"
+              >
+                Details <span>↗</span>
+              </button>
+            </div>
+          </article>
+        
+          <article class="project-card" data-reveal="up" data-delay="240">
+            <div class="project-image-wrap">
+              <img class="project-img dashboard-preview" src="assets/projects/cases/LiftLink.png" alt="User dashboard interface" />
+            </div>
+        
+            <div class="project-info">
+              <h3>User Dashboard Interface</h3>
+              <p>A structured dashboard interface with onboarding blocks, statistics and user navigation.</p>
+        
+              <button
+                class="details-btn"
+                type="button"
+                data-project="User Dashboard Interface"
+                data-image="assets/projects/cases/LiftLink.png"
+                data-description="A dashboard-style interface designed for user interaction and content navigation. Includes structured layout, UI components and scalable interface logic."
+                data-stack="HTML5, CSS3, JavaScript, Bootstrap, UI Components, Dashboard Layout"
+              >
+                Details <span>↗</span>
+              </button>
+            </div>
+          </article>
+        
+          <article class="project-card" data-reveal="up" data-delay="360">
+            <div class="project-image-wrap">
+              <img class="project-img catr-preview" src="assets/projects/cases/Catr.png" alt="Profile matching web platform" />
+            </div>
+        
+            <div class="project-info">
+              <h3>Profile Matching Platform</h3>
+              <p>An interactive platform concept based on user profiles, preferences and matching logic.</p>
+        
+              <button
+                class="details-btn"
+                type="button"
+                data-project="Profile Matching Platform"
+                data-image="assets/projects/cases/Catr.png"
+                data-description="An interactive web platform focused on profile discovery and preference-based matching. The interface includes profile cards, interactions and engagement-focused UI."
+                data-stack="JavaScript, Interactive UI, Event Handling, Frontend Logic, Responsive Design"
+              >
+                Details <span>↗</span>
+              </button>
+            </div>
+          </article>
+        </div>
+
+        <div class="project-dots" aria-hidden="true" style="display: none;">
+          <span class="active"></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="container about-grid">
+        <div class="about-content" data-reveal="left">
+          <span class="section-kicker align-left">About Me</span>
+          <h2>Who I Am</h2>
+          <span class="heading-line align-left-line"></span>
+          <p>I am an IT professional with over 5 years of experience in software development, software testing and system support.</p>
+          <p>I specialize in creating websites, web applications, technical solutions and providing consulting for clients who need reliable digital tools.</p>
+          <p>My background in QA helps me build projects with attention to stability, usability and long-term quality.</p>
+          <a class="btn btn-primary about-btn" href="#contact">Contact Me <span>↗</span></a>
+        </div>
+
+        <div class="experience" data-reveal="right">
+          <span class="section-kicker align-left">Experience</span>
+          <h2>Work Experience</h2>
+          <span class="heading-line align-left-line"></span>
+
+          <div class="timeline">
+            <article class="timeline-item">
+              <h3>QA Engineer — Sorbet</h3>
+              <span>Jan 2022 — Aug 2023</span>
+              <p>Software quality assurance, web and mobile testing, requirement analysis, test optimization.</p>
+            </article>
+
+            <article class="timeline-item">
+              <h3>Software Test Engineer — QADream</h3>
+              <span>Jul 2021 — Jan 2022</span>
+              <p>Manual and automated testing, bug reporting, product quality improvement.</p>
+            </article>
+
+            <article class="timeline-item">
+              <h3>Independent IT Projects</h3>
+              <span>2023 — Present</span>
+              <p>Website development, application support, digital solutions and consulting for clients.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-shell" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-info" data-reveal="left">
+          <span class="section-kicker align-left">Contact</span>
+          <h2>Let's Work Together</h2>
+          <span class="heading-line align-left-line"></span>
+
+          <a class="contact-row" href="mailto:smarchenich@gmail.com">
+            <span class="contact-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M4 6h16v12H4zM4 7l8 6 8-6" /></svg>
+            </span>
+            <span>
+              <strong>smarchenich@gmail.com</strong>
+              <small>Send me an email anytime</small>
+            </span>
+          </a>
+
+          <a class="contact-row" href="tel:+34641193122">
+            <span class="contact-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1A19.5 19.5 0 0 1 5.2 13 19.8 19.8 0 0 1 2.1 4.3 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 2 .7 2.9a2 2 0 0 1-.5 2.1L8 10a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.5c.9.3 1.9.6 2.9.7a2 2 0 0 1 1.7 2z" /></svg>
+            </span>
+            <span>
+              <strong>+34 641 193 122</strong>
+              <small>Available for calls and messages</small>
+            </span>
+          </a>
+
+          <div class="contact-row contact-static">
+            <span class="contact-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 12-9 12S3 17 3 10a9 9 0 1 1 18 0z"/><circle cx="12" cy="10" r="3" /></svg>
+            </span>
+            <span>
+              <strong>Spain</strong>
+              <small>Available for remote work worldwide</small>
+            </span>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contactForm" data-reveal="right">
+          <div class="form-row">
+            <label class="sr-only" for="name">Your Name</label>
+            <input id="name" name="name" type="text" placeholder="Your Name" autocomplete="name" required />
+            <label class="sr-only" for="email">Email Address</label>
+            <input id="email" name="email" type="email" placeholder="Email Address" autocomplete="email" required />
+          </div>
+          <div class="form-row">
+            <label class="sr-only" for="phone">Phone</label>
+            <input id="phone" name="phone" type="tel" placeholder="Phone (optional)" autocomplete="tel" />
+            <label class="sr-only" for="projectType">Project Type</label>
+            <select id="projectType" name="projectType" required>
+              <option value="" selected disabled>Project Type</option>
+              <option value="Website Development">Website Development</option>
+              <option value="Web Application">Web Application</option>
+              <option value="Maintenance & Support">Maintenance & Support</option>
+              <option value="Technical Consulting">Technical Consulting</option>
+            </select>
+          </div>
+          <label class="sr-only" for="message">Your Message</label>
+          <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+          <button class="submit-btn" type="submit">
+            <span class="submit-text">Send Message ↗</span>
+            <span class="submit-loader" aria-hidden="true"></span>
+          </button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 
+        <!-- <span id="year"></span>  -->
+        Siarhei M. All rights reserved.</p>
+      <p>Built with passion <span class="heart">♥</span></p>
+    </div>
+  </footer>
+
+  <div class="modal-overlay" id="projectModal" aria-hidden="true">
+    <div class="modal project-modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" type="button" aria-label="Close modal">×</button>
+
+      <div class="modal-preview" aria-hidden="true">
+        <img id="modalImage" src="" alt="" />
+      </div>
+
+      <div class="modal-copy">
+        <span class="section-kicker align-left">Project Details</span>
+        <h2 id="modalTitle">Project Title</h2>
+        <p id="modalDescription">Project description</p>
+        <div class="modal-stack" id="modalStack">Stack</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal-overlay" id="successModal" aria-hidden="true">
+    <div class="modal success-modal" role="dialog" aria-modal="true" aria-labelledby="successTitle">
+      <button class="modal-close" type="button" aria-label="Close modal">×</button>
+      <div class="success-icon" aria-hidden="true">✓</div>
+      <h2 id="successTitle">Thank you!</h2>
+      <p>Your request has been sent. I will contact you soon.</p>
+    </div>
+  </div>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

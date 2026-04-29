@@ -1,0 +1,21 @@
+<svg width="900" height="560" viewBox="0 0 900 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="560" rx="24" fill="#0A0D24"/>
+  <circle cx="720" cy="72" r="210" fill="#6D35FF" opacity="0.26"/>
+  <circle cx="120" cy="460" r="260" fill="#5275FF" opacity="0.18"/>
+  <path d="M0 392C122 337 219 452 346 389C477 324 572 259 900 315V560H0V392Z" fill="url(#g)" opacity="0.9"/>
+  <rect x="58" y="50" width="112" height="18" rx="9" fill="#FFFFFF" opacity="0.88"/>
+  <rect x="650" y="51" width="58" height="12" rx="6" fill="#FFFFFF" opacity="0.42"/>
+  <rect x="728" y="51" width="58" height="12" rx="6" fill="#FFFFFF" opacity="0.42"/>
+  <rect x="806" y="51" width="36" height="12" rx="6" fill="#FFFFFF" opacity="0.42"/>
+  <text x="70" y="202" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="46" font-weight="800">Digital Solutions</text>
+  <rect x="72" y="230" width="330" height="12" rx="6" fill="#DDE2FF" opacity="0.75"/>
+  <rect x="72" y="255" width="260" height="12" rx="6" fill="#DDE2FF" opacity="0.52"/>
+  <rect x="72" y="300" width="128" height="46" rx="14" fill="#6D35FF"/>
+  <rect x="220" y="300" width="128" height="46" rx="14" fill="#FFFFFF" opacity="0.11"/>
+  <rect x="522" y="152" width="266" height="196" rx="22" fill="#FFFFFF" opacity="0.08" stroke="#FFFFFF" stroke-opacity="0.22"/>
+  <rect x="556" y="190" width="118" height="12" rx="6" fill="#46E0FF" opacity="0.8"/>
+  <rect x="556" y="226" width="184" height="12" rx="6" fill="#FFFFFF" opacity="0.55"/>
+  <rect x="556" y="255" width="142" height="12" rx="6" fill="#FFFFFF" opacity="0.35"/>
+  <rect x="556" y="298" width="154" height="34" rx="11" fill="#8B5CFF" opacity="0.75"/>
+  <defs><linearGradient id="g" x1="0" y1="311" x2="900" y2="570" gradientUnits="userSpaceOnUse"><stop stop-color="#161A4F"/><stop offset="1" stop-color="#6D35FF"/></linearGradient></defs>
+</svg>
